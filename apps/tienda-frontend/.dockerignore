@@ -1,0 +1,33 @@
+# Ignorar dependencias locales
+node_modules
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Ignorar archivos de control de versiones
+.git
+.gitignore
+
+# Ignorar Dockerfile temporales o intermedios
+Dockerfile*
+docker-compose.*
+
+# Configs locales
+.env
+.env.*.local
+
+# Cache de Vite
+dist
+.cache
+.vite
+
+# IDEs y editores
+.vscode
+.idea
+*.swp
+
+# Otros
+*.log
+.DS_Store
+Thumbs.db
+
